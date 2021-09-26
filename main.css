@@ -1,5 +1,5 @@
-Body{
-    background-image: url("images/icon2.png");
+body{
+    background-image: url("images/background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -7,14 +7,7 @@ Body{
     background-color:#2b2a2a;
     height: 100%;
 }
-.home{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-}
+
 .fa{
     padding: 10px;
     font-size: 25px;
@@ -38,10 +31,22 @@ img{
     max-height: 255px;
 }
 h1{
+    text-align: center;
     font-size: 325%;
     font-family: Rubik, sans-serif;
+    color: white;
 }
 p{
     font-size: 150%;
     font-family: Roboto Thin, sans-serif;
+}
+
+.icons {
+    text-align: center;
+    position: relative;
+}
+
+.icon {
+    text-align: center;
+    position: relative;
 }
