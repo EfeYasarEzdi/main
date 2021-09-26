@@ -1,4 +1,4 @@
-backgroundBody{
+Body{
     background-image: url("images/icon2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,7 +7,7 @@ backgroundBody{
     background-color:#2b2a2a;
     height: 100%;
 }
-#home{
+.home{
     text-align: center;
     position: absolute;
     top: 50%;
